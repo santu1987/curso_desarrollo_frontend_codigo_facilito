@@ -1,0 +1,21 @@
+/*
+Colores :;
+Vinotinto: #9A031E;
+morado:5F0F40;
+Purpura oscuro:321325;
+Bronze: CB793A;
+*/
+body{
+	margin:0px;
+}
+h1,h2{
+	margin-top: 0px!important;
+}
+.container{
+  background: #9A031E; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #c31432, #240b36); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #c31432, #240b36); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+td{
+	border:solid;
+}
