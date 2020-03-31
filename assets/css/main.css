@@ -18,7 +18,9 @@ a{
 h1,h2{
 	margin-top: 0px!important;
 }
-
+img{
+	max-width:100%;
+}
 .container{
   background: #9A031E; /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #c31432, #240b36); /* Chrome 10-25, Safari 5.1-6 */
@@ -146,6 +148,11 @@ a:focus;
 		display: block;
 		width: 100%;
 	}
+	td:nth-of-type(1){
+		font-size: 1.5em;
+		font-weight: 700;
+		color:#642B63;
+	}
 	th{
 		display: none;
 	}
@@ -153,5 +160,17 @@ a:focus;
 @media(min-height: 550px){
 	.content{
 		height:500px;
+	}
+}
+@media(max-width: 650px){
+	.content{
+		height:600px;
+	}
+}
+@media(max-width: 548px){
+	.content{
+		max-height:600px;
+		overflow-x: hidden;
+		overflow-y: scroll;
 	}
 }
